@@ -1,0 +1,15 @@
+{
+  "Services": {
+    "sinusbot": {
+      "Image": "asos/sinusbot@sha256:63ec594612160dbe9249675f07082778f9985c16efe0d7bc742e54620d236fff", 
+      "Networks": [], 
+      "Ports": [
+        {
+          "Port": 8087, 
+          "Protocol": "tcp"
+        }
+      ]
+    }
+  }, 
+  "Version": "0.1"
+}
