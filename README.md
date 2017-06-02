@@ -1,6 +1,7 @@
 ## SinusBot TeamSpeak 3 Docker Image
 
-
+[![](https://images.microbadger.com/badges/version/asos/sinusbot.svg)](https://microbadger.com/images/asos/sinusbot "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/asos/sinusbot.svg)](https://microbadger.com/images/asos/sinusbot "Get your own image badge on microbadger.com")
 
 Docker container for the TeamSpeak 3 SinusBot by Michael Friese.
 
