@@ -1,0 +1,8 @@
+sinusbot:
+        restart: always
+        image: asos/sinusbot:1.0.0.5
+        container_name: sinusbot-1.0.0.5
+        ports:
+            - "8087:8087"
+        volumes:
+            - /storage/sinusbot:/sinusbot
