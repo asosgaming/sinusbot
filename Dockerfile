@@ -11,7 +11,7 @@ ENV SINUS_USER="sinusbot" \
     YTDL_VERSION="latest" \
     TS3_VERSION="3.0.19.4" \
     TS3_OFFSET="25000"
-	
+
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
 ARG VCS_REF
@@ -26,12 +26,13 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0"
 
-	
+
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh && \
     apt-get -q update && \
     apt-get -q install -y \
     locales \
+    nano \
     wget \
     sudo \
     x11vnc \
