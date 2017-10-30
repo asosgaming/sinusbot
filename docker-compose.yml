@@ -1,10 +1,18 @@
 version: '2'
 services:
   Sinusbot:
+<<<<<<< HEAD
     image: asos/sinusbot:1.0.0.9
+=======
+    image: asos/sinusbot:1.0.0.8
+>>>>>>> f0f98a545bf71e9cf6fccab4b0096c6a4edd1e2a
     stdin_open: true
     volumes:
     - /storage/sinusbot:/sinusbot/data
     tty: true
     ports:
+<<<<<<< HEAD
     - 8087:8087/tcp
+=======
+    - 8087:8087/tcp
+>>>>>>> f0f98a545bf71e9cf6fccab4b0096c6a4edd1e2a
