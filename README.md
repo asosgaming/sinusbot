@@ -14,13 +14,15 @@ TeamSpeak 3 SinusBot Homepage: https://www.sinusbot.com/
 
 
 ------------------------UPDATES---------------------------
-30 Oct 2017 - Updated to latest Sinusbot Beta. Changed to version 1.0.0.9
+
+
+30 Oct 2017 : Updated to latest Sinusbot Beta. Changed to version 1.0.0.9
 
 Upgraded to Latest Version of Sinusbot Beta
 
 Upgraded to Latest Sinusbot Version
-  -Added Nano
-  -Edited docker-compose.yml to reflect correct storage location.
+  Added Nano
+  Edited docker-compose.yml to reflect correct storage location.
 Added Tag for Version 1.0.0.5
 Instituting Changes to allow for Docker Image Tags in build environment.
 Completed Update of TS3 Client to v. 3.1.0.1
