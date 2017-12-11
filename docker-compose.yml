@@ -1,7 +1,7 @@
 version: '2'
 services:
   Sinusbot:
-    image: asos/sinusbot:1.0.0.9
+    image: asos/sinusbot:1.0.0.10
     stdin_open: true
     volumes:
     - /storage/sinusbot:/sinusbot/data
