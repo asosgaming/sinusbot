@@ -9,9 +9,9 @@ ENV SINUS_USER="sinusbot" \
     TS3_DIR="$SINUS_DIR/TeamSpeak3-Client-linux_amd64" \
     SINUS_VERSION="beta" \
     YTDL_VERSION="latest" \
-    TS3_VERSION="3.0.19.4" \
+    TS3_VERSION="3.1.7" \
     TS3_OFFSET="25000"
-	
+
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
 ARG VCS_REF
@@ -26,7 +26,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0"
 
-	
+
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh && \
     apt-get -q update && \
