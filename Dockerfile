@@ -45,7 +45,7 @@ RUN chmod 755 /entrypoint.sh && \
     libsndfile1 \
     libvorbis0a \
     libvorbisenc2 \
-    libxtst6
+    libxtst6 \
     nano \
     libxcursor1 \
     libglib2.0-0 \
