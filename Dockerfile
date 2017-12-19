@@ -37,6 +37,15 @@ RUN chmod 755 /entrypoint.sh && \
     x11vnc \
     xinit \
     xvfb \
+    libasound2 \
+    libpulse0 \
+    libasyncns0 \
+    libflac8 \
+    libogg0 \
+    libsndfile1 \
+    libvorbis0a \
+    libvorbisenc2 \
+    libxtst6
     nano \
     libxcursor1 \
     libglib2.0-0 \
