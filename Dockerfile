@@ -11,7 +11,7 @@ ENV SINUS_USER="sinusbot" \
     YTDL_VERSION="latest" \
     TS3_VERSION="3.0.19.4" \
     TS3_OFFSET="25000"
-	
+
 # Build-time metadata as defined at http://label-schema.org
 ARG BUILD_DATE
 ARG VCS_REF
@@ -26,7 +26,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.version=$VERSION \
       org.label-schema.schema-version="1.0"
 
-	
+
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod 755 /entrypoint.sh && \
     apt-get -q update && \
@@ -37,6 +37,7 @@ RUN chmod 755 /entrypoint.sh && \
     x11vnc \
     xinit \
     xvfb \
+    nano \
     libxcursor1 \
     libglib2.0-0 \
     python \
@@ -53,7 +54,7 @@ RUN chmod 755 /entrypoint.sh && \
     echo LANG=en_US.UTF-8 >> /etc/default/locale && \
     mkdir -p "$SINUS_DIR" "$TS3_DIR" && \
     wget -qO- https://www.sinusbot.com/dl/sinusbot-$SINUS_VERSION.tar.bz2 | \
-    tar -xjf- -C "$SINUS_DIR" && \
+    tar -xvjf- -C "$SINUS_DIR" && \
     wget -q -O- "http://dl.4players.de/ts/releases/$TS3_VERSION/TeamSpeak3-Client-linux_amd64-$TS3_VERSION.run" | \
     tail -c +$TS3_OFFSET | \
     tar xzf - -C "$TS3_DIR" && \
