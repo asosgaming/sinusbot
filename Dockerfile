@@ -78,4 +78,4 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
       EXPOSE 8087
 
-      ENTRYPOINT ["/entrypoint.sh"]
+      ENTRYPOINT ["sh", "/docker-entrypoint.sh"]
