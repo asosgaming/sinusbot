@@ -18,7 +18,7 @@ spec:
         version: v0.9.8
     spec:
       containers:
-        - image: galexrt/sinusbot:latest
+        - image: asos/sinusbot:latest
           name: sinusbot
           resources:
             limits:
