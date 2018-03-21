@@ -14,6 +14,7 @@ TeamSpeak 3 SinusBot Homepage: https://www.sinusbot.com/
 
 
 ------------------------UPDATES---------------------------
+21 March 2018 : Updated to latest SinusBot Beta. Changed to version 1.0.0.11
 
 11 Dec 2017 : Updated to latest SinusBot Beta. Changed to version 1.0.0.10
 
