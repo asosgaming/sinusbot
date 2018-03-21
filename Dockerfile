@@ -31,7 +31,9 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
           SINUS_CONFIG="$SINUS_DIR/config" \
           TS3_DIR="$SINUS_DIR/TeamSpeak3-Client-linux_amd64"
 
-      RUN groupadd -g "$SINUS_GROUP" sinusbot && \
+      ADD entrypoint.sh /entrypoint.sh
+      RUN chmod 755 /entrypoint.sh && \
+          groupadd -g "$SINUS_GROUP" sinusbot && \
           useradd -u "$SINUS_USER" -g "$SINUS_GROUP" -d "$SINUS_DIR" sinusbot && \
           apt-get -q update -y && \
           apt-get -q upgrade -y && \
