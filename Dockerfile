@@ -7,7 +7,7 @@ ARG VCS_REF
 ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="ASoS Sinusbot Docker" \
-      org.label-schema.description="A docker container for running Sinusbot." \
+      org.label-schema.description="A docker container for running Sinusbot" \
       org.label-schema.url="http://www.asosgaming.com/" \
       org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/asosgaming/sinusbot" \
