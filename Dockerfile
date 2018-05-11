@@ -22,7 +22,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
           SINUS_DIR="/sinusbot" \
           YTDL_BIN="/usr/local/bin/youtube-dl" \
           YTDL_VERSION="latest" \
-          TS3_VERSION="3.1.8" \
+          TS3_VERSION="3.1.9" \
           TS3_DL_ADDRESS="http://dl.4players.de/ts/releases/" \
           SINUSBOT_DL_URL="https://www.sinusbot.com/dl/sinusbot.current.tar.bz2"
 

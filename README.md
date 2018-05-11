@@ -15,6 +15,10 @@ TeamSpeak 3 SinusBot Homepage: https://www.sinusbot.com/
 
 ------------------------UPDATES---------------------------
 
+11 May 2018 : Updated Docker Image
+    - Upgraded to Latest Version of Sinusbot
+    - Upgraded to latest TS3 Client Version 3.1.9
+
 21 March 2018 : Updated Docker Image
     - Upgraded to Latest Version of Sinusbot
     - Upgraded to latest TS3 Client Version 3.1.8
