@@ -1,9 +1,13 @@
 ## SinusBot TeamSpeak 3 Docker Image
 
-[![](https://images.microbadger.com/badges/version/asos/sinusbot.svg)](https://microbadger.com/images/asos/sinusbot "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/asos/sinusbot.svg)](https://microbadger.com/images/asos/sinusbot "Get your own image badge on microbadger.com")
+[![Current Build](https://images.microbadger.com/badges/version/asos/sinusbot.svg)](https://microbadger.com/images/asos/sinusbot "Get your own version badge on microbadger.com")
+[![Docker Automated build](https://img.shields.io/docker/automated/asos/sinusbot.svg?style=plastic)](https://hub.docker.com/r/asos/sinusbot/builds)
+[![Docker Pulls](https://img.shields.io/docker/pulls/asos/teamspeak.svg?style=plastic)](https://github.com/asosgaming/sinusbot)
+[![Github Releases (by Release)](https://img.shields.io/github/release/asosgaming/sinusbot.svg?style=plastic)](https://github.com/asosgaming/sinusbot/releases)
+[![GitHub tag](https://img.shields.io/github/tag/asosgaming/sinusbot.svg?style=plastic)](https://github.com/asosgaming/sinusbot/tags)
+[![GitHub forks](https://img.shields.io/github/forks/asosgaming/sinusbot.svg?style=plastic)](https://github.com/asosgaming/sinusbot/network)
 
-Docker container for the TeamSpeak 3 SinusBot by Michael Friese.
+#Docker container for the TeamSpeak 3 SinusBot by Michael Friese.
 
 TeamSpeak 3 SinusBot Homepage: https://www.sinusbot.com/
 
